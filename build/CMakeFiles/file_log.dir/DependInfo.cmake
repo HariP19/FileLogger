@@ -4,14 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hari/tmp/file_logger/main.cpp" "/home/hari/tmp/file_logger/build/CMakeFiles/file_log.dir/main.cpp.o"
-  "/home/hari/tmp/file_logger/src/save_file.cpp" "/home/hari/tmp/file_logger/build/CMakeFiles/file_log.dir/src/save_file.cpp.o"
+  "/home/hari/Workspace/cpp_ws/FileLogger/main.cpp" "/home/hari/Workspace/cpp_ws/FileLogger/build/CMakeFiles/file_log.dir/main.cpp.o"
+  "/home/hari/Workspace/cpp_ws/FileLogger/src/save_file.cpp" "/home/hari/Workspace/cpp_ws/FileLogger/build/CMakeFiles/file_log.dir/src/save_file.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
+  "."
   )
 
 # Targets to which this target links.

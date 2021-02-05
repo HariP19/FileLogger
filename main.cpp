@@ -9,8 +9,11 @@ Vec3<float> Fr_des[4]= { {0.000000, -0.000000, 39.662805},  //Unitree A1
 int main()
 {
     printf("saving vector...\n");
-    saveValue("\nDesired contact Force", "/log/", "result_2");
-    saveVector(Fr_des[2], "/log/", "result_2");
+    SaveFileManager<float> saveFileManager("test", "/log/");
+    saveFileManager.saveValue("Desired contact force");
+    saveFileManager.saveVector(Fr_des[2]);
+    // saveValue("\nDesired contact Force", "/log/", "result_2");
+    // saveVector(Fr_des[2], "/log/", "result_2");
 
     return 0;
 }

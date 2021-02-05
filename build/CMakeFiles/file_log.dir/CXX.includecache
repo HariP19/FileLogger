@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -40,11 +40,13 @@ list
 string
 -
 
-/home/hari/tmp/file_logger/main.cpp
+/home/hari/Workspace/cpp_ws/FileLogger/main.cpp
 save_file.h
-/home/hari/tmp/file_logger/save_file.h
+/home/hari/Workspace/cpp_ws/FileLogger/save_file.h
 
-/home/hari/tmp/file_logger/src/save_file.cpp
+/home/hari/Workspace/cpp_ws/FileLogger/src/save_file.cpp
 save_file.h
-/home/hari/tmp/file_logger/src/save_file.h
+/home/hari/Workspace/cpp_ws/FileLogger/src/save_file.h
+
+Configuration.h
 
