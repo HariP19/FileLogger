@@ -1,0 +1,3 @@
+/home/hari/tmp/file_logger/build/CMakeFiles/edit_cache.dir
+/home/hari/tmp/file_logger/build/CMakeFiles/file_log.dir
+/home/hari/tmp/file_logger/build/CMakeFiles/rebuild_cache.dir

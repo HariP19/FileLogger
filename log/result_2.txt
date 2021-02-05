@@ -1,0 +1,3 @@
+
+Desired contact Force
+0	-0	21.3569	
